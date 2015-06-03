@@ -1,0 +1,181 @@
+*
+{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+body
+{
+
+	border: 3px solid  #5DBEA9;
+}
+footer
+{
+	text-align: right;
+	background: #EF7247;
+	padding: 20px 20px;
+}
+header
+{
+	margin-top: -40px;
+	background: #5DBEA9;
+}
+header h1
+{
+	padding: 20px 0 0 20px;
+}
+header nav 
+{
+	text-align: center;
+	margin: center;
+	padding: 20px;
+	background:#EFEDDF;
+}
+header nav ul li 
+{
+	margin: -20px 0;
+	padding: 10px 50px;
+	background: #D1CBBA;
+	margin-left: 50px;
+	display: inline-block;
+	border: 2px solid black;
+}
+#artitxto
+{
+	color:white;
+	text-align: justify;
+}
+#imgP
+{
+	width: 100%;
+}
+#artifotos
+{
+  
+ background: #0FAB8E;
+}
+#section1
+{
+	text-align: center;
+	display: block;
+}
+#section2 
+{
+	display: none;
+}
+#section0
+{
+
+	margin-top: 20px;
+
+}
+#section0 img 
+{
+	display: block;
+	text-align: center;
+	width: 30%;
+	border-radius: 200px;
+}
+#section3 
+{
+
+	display: none;
+	background: #48D4C6;
+	text-align: center;
+}
+
+#section3> article
+{
+	display: inline-block;
+	width: 45%;
+}
+#hed2
+{
+	display: none;
+}
+#div2
+{
+	width: 100%;
+	margin-top: 100px;
+	color: white;
+	position: absolute;
+}
+
+#section1article2 img
+{
+
+  width:  50%;
+}
+.secart
+{
+	text-align: center;
+}
+
+@media screen and (max-width: 770px) {
+	
+	
+	#hed1
+	{
+		display: none;
+	}
+	#hed2
+	{
+		display: block;
+	}
+	footer
+	{
+		background: black;
+	}
+	#section3> article
+	{
+		text-align: center;
+		display: block;
+		width: 100%;
+		color: black
+	} 
+	header
+	{
+		margin-top: -40px;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	header nav
+	{
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	header nav ul li 
+	{
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+	header nav ul li button
+	{
+		color: black;
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+}
+@media screen and (max-width: 500px) {
+	header
+{
+	margin-top: -40px;
+}
+	footer
+	{
+		padding: 4px 4px;
+		font-size: 12px;
+	}
+	#div2
+	{
+		display: none;
+	}
+}
